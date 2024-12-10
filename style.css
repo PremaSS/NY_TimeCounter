@@ -20,7 +20,7 @@
       color: hsl(0 0% 100%);
       display: grid;
       text-align: center;
-      font-size: 4cqi;
+      font-size: 1.5em;
       > .number {
         color: var(--number-color);
       }
