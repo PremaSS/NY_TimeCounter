@@ -20,14 +20,14 @@
       color: hsl(0 0% 100%);
       display: grid;
       text-align: center;
-      font-size: 1.5rem;
       > .number {
         color: var(--number-color);
+        font-size: 2.5rem;
       }
       > .text {
         color: var(--text-color);
         text-transform: uppercase;
-        tab-size: 0.5rem;
+        font-size: 1.2rem;
       }
     }
     > .dot-container {
