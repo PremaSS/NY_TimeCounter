@@ -58,9 +58,9 @@
         background-color: var(--dot-color);
         border-radius: 50%;
         transition: background-color 0.25s;
-        &[data-active='true'] {
+        &[data-active=true] {
           background-color: var(--dot-color-remaining);
-          &[data-lastactive='true'] {
+          &[data-lastactive=true] {
             background-color: var(--dot-color-active);
           }
         }
