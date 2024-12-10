@@ -62,7 +62,7 @@ function getRemainingTime(target, parts, first = true) {
 
     const dots = parts[key].element.querySelectorAll('.dot');
     dots.forEach((dot, idx) => {
-      dot.dataset.active = idx < value;
+      dot.dataset.active = idx <= value;
       dot.dataset.lastactive = idx == value;
     });
   });
