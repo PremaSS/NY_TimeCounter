@@ -16,18 +16,35 @@
     display: grid;
     place-items: center;
     > .remaining {
-      grid-area: 1/1;
+      grid-area: 1 / 1;
       color: hsl(0 0% 100%);
       display: grid;
       text-align: center;
+      font-size: 4cqi;
+
       > .number {
         color: var(--number-color);
-        font-size: 2.5rem;
+
+        @media (max-width: 600px) {
+          font-size: 1.5rem;
+        }
+
+        @media (min-width: 600px) {
+          font-size: 2.5rem;
+        }
       }
+
       > .text {
         color: var(--text-color);
         text-transform: uppercase;
-        font-size: 1.2rem;
+
+        @media (max-width: 600px) {
+          font-size: 0.8rem;
+        }
+
+        @media (min-width: 600px) {
+          font-size: 1.2rem;
+        }
       }
     }
     > .dot-container {
